@@ -59,10 +59,12 @@ I am a 21 year old Junior Software Developer working on C++ applications for abo
 A C# school project simulating a wildlife management system for a crocodile & alligator station.
 A school project simulating a wildlife management system for a crocodile and alligator reasearch station in South Florida.
 This project was meant to showcase architectural knowledge about OOP and highlight design decisions. It also required to integrate atleast one external data source via a REST-API.
+
 - **Frontend** C# + .NET MAUI - custom pages, completley overhauled colors and UI element design
-**Services** NOAA + USGS + Supabase - Data and Auth is handled by a BaaS (Backend as a Service) provider called supabase.
-For a research page weather and water data is fetched from NOAA and the USGS so it can be displayed and observations can be logged with environmental data attatched.
-**CI** GitHub Actions - This project uses GitHub Actions to create an apk and windows executable file of the app from the master branch. It also runs the unit tests implemented in XUnit.
+- **Services** NOAA + USGS + Supabase - Data and Auth is handled by a BaaS (Backend as a Service) provider called supabase. For a research page weather and water data is fetched from NOAA and the USGS so it can be displayed and observations can be logged with environmental data attatched.
+- **Testing** - XUnit - simple Unit tests were implemented by utilizing xUnit tests that test against a platform agnostic core library since .NET MAUI cannot be tested directly
+
+- **CI** GitHub Actions - This project uses GitHub Actions to create an apk and windows executable file of the app from the master branch. It also runs the unit tests implemented in XUnit.
 
 ### 📦 [shipping-tracker](https://github.com/tobias-hstbrg/shipping-tracker)
 A full-stack parcel tracking web app — built to learn Spring Boot and React in a real project setting.
